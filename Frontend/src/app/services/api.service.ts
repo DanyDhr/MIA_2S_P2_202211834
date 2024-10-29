@@ -12,6 +12,6 @@ export class ApiService {
 
   postEntrada(entrada: string) {
     // Cambiar la URL por la de la API en AWS
-    return this.httpClient.post("http://18.117.178.169:5000/analizar", { Cmd: entrada });
+    return this.httpClient.post("http://3.17.14.89:5000/analizar", { Cmd: entrada });
   }
 }
